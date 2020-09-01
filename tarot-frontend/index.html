@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Seeking Guidance</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Seeking Guidance</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="about">About Tarot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="cards">All Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="draws-link">Previous Draws</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="https://raw.githubusercontent.com/ronniekram/tarot-js/master/tarot_header.png" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Seeking Guidance:</h1>
+        <p>When you find yourself without a tarot deck or the time to draw a spread-- We'll do the work for you. Cards in the draw come with a description, but feel free to interperet them how you wish! Ask your question and choose a one, three or five card spread below.</p>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <form class="draw_cards"> 
+          <label>Ask a question:  </label>
+          <input type="text" id="draw-question">
+          <button class="btn btn-primary draw-btn" id="one">Draw One Card</button>
+          <button class="btn btn-primary draw-btn" id="three">Draw Three Cards</button>
+          <button class="btn btn-primary draw-btn" id="five">Draw Five Cards</button>
+        </form>
+      </div>
+      <div class="question">  
+      </div>
+    </div>
+
+
+    <!-- Content Row -->
+    <div class="row" id="main-box">
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Arynn Boniface 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/card.js" charset="UTF-8"></script>
+  <script type="application/javascript" src="src/draw.js" charset="UTF-8"></script>
+
+</body>
+
+</html>
